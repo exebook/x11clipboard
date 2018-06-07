@@ -28,6 +28,9 @@ static void XCopy(Atom selection, unsigned char * text, int size) {
 				R = XChangeProperty(ev.display, ev.requestor, ev.property, UTF8, 8, PropModeReplace, text, size);
 			else ev.property = None;
 			if ((R & 2) == 0) XSendEvent (display, ev.requestor, 0, 0, (XEvent *)&ev);
+			break;
+			case SelectionClear:
+			return;
 		}
 	}
 }
