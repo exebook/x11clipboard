@@ -10,3 +10,10 @@ These particular programs use only main CLIPBOARD object of X11, not a SELECTION
 
 See the source luke.
 
+PS: The main application is the interception of dynamic links in browsers.
+
+---
+https://github.com/exebook/x11clipboard
+
+---
+2018

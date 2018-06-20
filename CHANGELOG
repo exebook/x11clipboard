@@ -1,0 +1,11 @@
+X11Clipboard (https://github.com/exebook/x11clipboard)
+
+0.20180620 zvezdochiot
+    x11copy: return of XCopy
+    x11copy: fix empty args
+
+0.20180606 HsingPeng
+    fix: stop while SelectionOwner
+
+0.20140318 exebook
+    init: x11copy, x11paste
